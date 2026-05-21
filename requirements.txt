@@ -7,3 +7,6 @@ numpy
 
 # Dotenv support (load .env tự động)
 python-dotenv
+
+# Gemini Vision AI (dán nhãn tiếng Việt)
+google-generativeai
