@@ -1,0 +1,9 @@
+# Core dependencies
+inference-sdk
+Pillow
+sentence-transformers
+faiss-cpu
+numpy
+
+# Dotenv support (load .env tự động)
+python-dotenv

@@ -1,0 +1,26 @@
+# Bỏ qua API key - KHÔNG commit lên git
+.env
+
+# File index FAISS (có thể rất lớn)
+*.index
+snake_meta.json
+
+# Thư mục ảnh (chỉ ignore ảnh, giữ lại folder rỗng)
+snake_images/*.jpg
+snake_images/*.jpeg
+snake_images/*.png
+!snake_images/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model cache (sentence-transformers tải về)
+.cache/
